@@ -1,0 +1,11 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: myconfig
+  labels:
+    karaf.pid: com.github.buuhsmead.kameel
+data:
+  example.property.1: my property one
+  example.property.2: hallo wereld
+
+
